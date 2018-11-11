@@ -23,12 +23,21 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 String strTmp = tvCrudoPatty.getText().toString();
+                if (strTmp.isEmpty()){
+                    return;
+                }
                 int nCrudoPatty = Integer.parseInt(strTmp);
 
                 strTmp = tvCrudoSte.getText().toString();
+                if (strTmp.isEmpty()){
+                    return;
+                }
                 int nCrudoSte = Integer.parseInt(strTmp);
 
                 strTmp = tvCotto.getText().toString();
+                if (strTmp.isEmpty()){
+                    return;
+                }
                 int nCotto = Integer.parseInt(strTmp);
 
                 // CrudoPatty : CrudoSte = CottoPatty : CottoSte(Risultato)

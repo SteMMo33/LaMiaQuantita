@@ -1,4 +1,4 @@
-package com.stemmo.lamiaquantit;
+package com.stemmo.lamiaquantita;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
