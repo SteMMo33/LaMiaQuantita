@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">La mia quantità</string>
+    <string name="ValCrudoPatty">ValCrudoPatty</string>
+    <string name="ValCrudoSte">ValCrudoSte</string>
 </resources>
